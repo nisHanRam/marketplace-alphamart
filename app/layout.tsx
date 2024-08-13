@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navigation from "./ui/Navigation";
 
 export const metadata: Metadata = {
   title: "AlphaMart",
@@ -16,7 +17,10 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/ozp0dxf.css" />
       </head>
-      <body className="app">{children}</body>
+      <body className="app">
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }

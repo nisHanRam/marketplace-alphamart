@@ -12,7 +12,7 @@ export default function Home() {
         quaerat natus iure recusandae possimus at nisi molestiae a amet, tempore
         voluptatum, iste odit officiis provident dolores est saepe!
       </p>
-      <button className="btn">Click Here</button>
+      <button>Click Here</button>
     </div>
   );
 }
